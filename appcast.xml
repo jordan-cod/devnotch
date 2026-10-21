@@ -23,6 +23,20 @@
             <enclosure url="https://github.com/jordan-cod/devnotch/releases/download/v0.7.0-beta.1/DevNotch-0.7.0-beta.1.zip" length="1441076" type="application/octet-stream" sparkle:edSignature="Qpv8eQcOEGy3vyGUySP0G649h7KLLE3vMg6fnRc5npbVrCuukZ9wJzrU+ZFPSNd3IkLmg54HnOv2Z3lP6PLaBg=="/>
         </item>
         <item>
+            <title>0.6.2</title>
+            <pubDate>Wed, 21 Oct 2026 10:24:47 +0000</pubDate>
+            <sparkle:version>110</sparkle:version>
+            <sparkle:shortVersionString>0.6.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<div class="markdown-heading"><h3 class="heading-element">Fixed</h3></div>
+<ul>
+<li>The glass panel stays dark and readable when your Mac uses Light mode.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/jordan-cod/devnotch/releases/download/v0.6.2/DevNotch-0.6.2.zip" length="1384608" type="application/octet-stream" sparkle:edSignature="Ypc6SBrYVxPHSI3hwvHC2dxhrpHpOX+Tt7sk7NgxoKAznIr+2G9I0ngYcfbRNJXmPJEDmAapHW2zixvOxA2fBA=="/>
+        </item>
+        <item>
             <title>0.6.1</title>
             <pubDate>Wed, 21 Oct 2026 01:45:13 +0000</pubDate>
             <sparkle:version>109</sparkle:version>
@@ -81,21 +95,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://github.com/jordan-cod/devnotch/releases/download/v0.6.0-beta.2/DevNotch-0.6.0-beta.2.zip" length="1384497" type="application/octet-stream" sparkle:edSignature="zYVsC1JtyBgIxXn/eE1yEFJUik8v/1uc+Uwr56369cAKmmHf8u/LMQq+i/27nqXU7z1wITdme28j1gP0kfy5Bw=="/>
-        </item>
-        <item>
-            <title>0.5.0</title>
-            <pubDate>Tue, 20 Oct 2026 22:43:49 +0000</pubDate>
-            <sparkle:version>84</sparkle:version>
-            <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<div class="markdown-heading"><h3 class="heading-element">Added</h3></div>
-<ul>
-<li>Each pull request shows how many lines it adds and removes. Hover over it to see how many files changed.</li>
-<li>Get beta versions: turn it on in Settings → Updates to try new features before everyone else.</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/jordan-cod/devnotch/releases/download/v0.5.0/DevNotch-0.5.0.zip" length="1346868" type="application/octet-stream" sparkle:edSignature="hcqjqic1uN/q24xLkIVxuaAlrPEX+OUf9FlBwxqT2Ixacrb84uvqkytKdisdwrVXTawhm5vtHnYe7RfUYf+QCQ=="/>
         </item>
         <item>
             <title>0.3.0</title>
