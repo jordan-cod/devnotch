@@ -3,6 +3,34 @@
     <channel>
         <title>DevNotch</title>
         <item>
+            <title>0.8.0-beta.4</title>
+            <pubDate>Wed, 21 Oct 2026 14:02:05 +0000</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>157</sparkle:version>
+            <sparkle:shortVersionString>0.8.0-beta.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<div class="markdown-heading"><h3 class="heading-element">Added</h3></div>
+<ul>
+<li>A new Actions side in the panel shows your GitHub Actions runs: what's running, waiting for approval or just finished, with job progress. Switch to it with the pill under the open notch, or ⌘← and ⌘→. It looks at the repositories you pushed to recently and the ones with your open pull requests, and filters by Mine, Everyone or Deploys.</li>
+<li>Click a run in Actions to see its jobs, with failures first, matrix jobs grouped and the step that failed. From there you can re-run the failed jobs, cancel a run that's still going (click twice to confirm) or open it on GitHub. Esc goes back to the list.</li>
+<li>Make your own tabs for the Actions side in Settings → Tabs, per account: pick who started the run, the repository, part of the workflow name, the branch (<code>release/*</code> matches the start), the event and the status. Mine, Everyone and Deploys become regular tabs you can edit, reorder or remove, and there are ready-made ones like Production deploys or Failing on main. The slider button next to the tabs opens the settings.</li>
+</ul>
+<div class="markdown-heading"><h3 class="heading-element">Changed</h3></div>
+<ul>
+<li>The closed notch now also shows workflow runs you started, like a deploy, with the workflow's name. The ring turns red as soon as a job fails, and the notch flashes the result when the run finishes.</li>
+<li>With the Glass panel style, the tabs, filters, account, search, buttons, the Pull requests / Actions pill and the toasts use macOS Liquid Glass and react to the pointer, instead of flat shapes drawn by the app. The Solid style looks the same as before.</li>
+</ul>
+<div class="markdown-heading"><h3 class="heading-element">Fixed</h3></div>
+<ul>
+<li>The pill under the open notch follows the panel style, so it's glass when the panel is, instead of always black.</li>
+<li>Tooltips show up next to the pointer, under the thing you hover (or above it when there's no room), and always inside the panel. Before, some were cut off by the panel edge, hidden behind other parts of the list, or showed up on the wrong side.</li>
+<li>The count on a tab with unread pull requests stays white like the others, with a small blue dot, instead of turning the whole number blue.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/jordan-cod/devnotch/releases/download/v0.8.0-beta.4/DevNotch-0.8.0-beta.4.zip" length="1679365" type="application/octet-stream" sparkle:edSignature="j+2Dd+FDfKG1zoe7p3JzIlI0IUslahFnq4u5u1rZHNpqZxxjOESRr3Z4CBTiuF/QksCz4yeKgb7K0QB+JiMfDA=="/>
+        </item>
+        <item>
             <title>0.8.0-beta.3</title>
             <pubDate>Wed, 21 Oct 2026 13:21:19 +0000</pubDate>
             <sparkle:channel>beta</sparkle:channel>
@@ -50,21 +78,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://github.com/jordan-cod/devnotch/releases/download/v0.8.0-beta.2/DevNotch-0.8.0-beta.2.zip" length="1618640" type="application/octet-stream" sparkle:edSignature="1RcTpcLnGOsehwx6MEz7rO8bxSSqS+JzWhCUyhSATN2RWIToVYNZE8QHJd2XKsoiSEipn577YHz0L6z6Dx8hCw=="/>
-        </item>
-        <item>
-            <title>0.8.0-beta.1</title>
-            <pubDate>Wed, 21 Oct 2026 12:33:28 +0000</pubDate>
-            <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>137</sparkle:version>
-            <sparkle:shortVersionString>0.8.0-beta.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<div class="markdown-heading"><h3 class="heading-element">Added</h3></div>
-<ul>
-<li>A new Actions side in the panel shows your GitHub Actions runs: what's running, waiting for approval or just finished, with job progress. Switch to it with the pill under the open notch, or ⌘← and ⌘→. It looks at the repositories you pushed to recently and the ones with your open pull requests, and filters by Mine, Everyone or Deploys.</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/jordan-cod/devnotch/releases/download/v0.8.0-beta.1/DevNotch-0.8.0-beta.1.zip" length="1547860" type="application/octet-stream" sparkle:edSignature="bSVGZxttXMPLbduRPoB/Yz8UIGDZsqtiAUhpcJ5/+VMvngfknyG9Gi+6xIed4uXYFr4MEq/yAuCsIQrygDQqAg=="/>
         </item>
         <item>
             <title>0.7.0</title>
