@@ -3,6 +3,30 @@
     <channel>
         <title>DevNotch</title>
         <item>
+            <title>0.8.0-beta.2</title>
+            <pubDate>Wed, 21 Oct 2026 12:58:33 +0000</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>145</sparkle:version>
+            <sparkle:shortVersionString>0.8.0-beta.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<div class="markdown-heading"><h3 class="heading-element">Added</h3></div>
+<ul>
+<li>A new Actions side in the panel shows your GitHub Actions runs: what's running, waiting for approval or just finished, with job progress. Switch to it with the pill under the open notch, or ⌘← and ⌘→. It looks at the repositories you pushed to recently and the ones with your open pull requests, and filters by Mine, Everyone or Deploys.</li>
+<li>Click a run in Actions to see its jobs, with failures first, matrix jobs grouped and the step that failed. From there you can re-run the failed jobs, cancel a run that's still going (click twice to confirm) or open it on GitHub. Esc goes back to the list.</li>
+</ul>
+<div class="markdown-heading"><h3 class="heading-element">Changed</h3></div>
+<ul>
+<li>The closed notch now also shows workflow runs you started, like a deploy, with the workflow's name. The ring turns red as soon as a job fails, and the notch flashes the result when the run finishes.</li>
+</ul>
+<div class="markdown-heading"><h3 class="heading-element">Fixed</h3></div>
+<ul>
+<li>The pill under the open notch follows the panel style, so it's glass when the panel is, instead of always black.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/jordan-cod/devnotch/releases/download/v0.8.0-beta.2/DevNotch-0.8.0-beta.2.zip" length="1618640" type="application/octet-stream" sparkle:edSignature="1RcTpcLnGOsehwx6MEz7rO8bxSSqS+JzWhCUyhSATN2RWIToVYNZE8QHJd2XKsoiSEipn577YHz0L6z6Dx8hCw=="/>
+        </item>
+        <item>
             <title>0.8.0-beta.1</title>
             <pubDate>Wed, 21 Oct 2026 12:33:28 +0000</pubDate>
             <sparkle:channel>beta</sparkle:channel>
