@@ -1,0 +1,166 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>DevNotch</title>
+        <item>
+            <title>0.7.0-beta.1</title>
+            <pubDate>Wed, 21 Oct 2026 01:22:40 +0000</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>115</sparkle:version>
+            <sparkle:shortVersionString>0.7.0-beta.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<div class="markdown-heading"><h3 class="heading-element">Added</h3></div>
+<ul>
+<li>Choose the panel's tabs for each account in Settings → Tabs. My PRs and To review are now regular tabs you can rename, edit, reorder or remove, and you can add your own, written like a GitHub search (for example <code>repo:acme/api label:bug</code>). Alerts keep following your PRs and review requests, whatever tabs you keep.</li>
+</ul>
+<div class="markdown-heading"><h3 class="heading-element">Changed</h3></div>
+<ul>
+<li>The quick search in the panel (⌘F) is now called Search, and it looks through every tab.</li>
+<li>The left arrow goes to the previous tab, and Tab or the right arrow to the next one.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/jordan-cod/devnotch/releases/download/v0.7.0-beta.1/DevNotch-0.7.0-beta.1.zip" length="1441076" type="application/octet-stream" sparkle:edSignature="Qpv8eQcOEGy3vyGUySP0G649h7KLLE3vMg6fnRc5npbVrCuukZ9wJzrU+ZFPSNd3IkLmg54HnOv2Z3lP6PLaBg=="/>
+        </item>
+        <item>
+            <title>0.6.0</title>
+            <pubDate>Wed, 21 Oct 2026 00:03:52 +0000</pubDate>
+            <sparkle:version>108</sparkle:version>
+            <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<div class="markdown-heading"><h3 class="heading-element">Added</h3></div>
+<ul>
+<li>Each kind of alert can play its own sound, so you can tell a failed CI from an approval without looking. Set it in Settings → Alerts.</li>
+<li>Alerts that arrive during a Focus are no longer lost. When the Focus ends, DevNotch shows them together in one alert.</li>
+<li>Drag a pull request out of the panel to drop its link into Slack, an email or anywhere else.</li>
+<li>While checks run on your pull requests, the closed notch widens to show how many are done, with a +1 when more than one is running. It turns green or red when they finish, right before the alert. Turn it off in Settings → Appearance.</li>
+</ul>
+<div class="markdown-heading"><h3 class="heading-element">Changed</h3></div>
+<ul>
+<li>The glass style moved from General to a new Appearance page in Settings.</li>
+<li>DevNotch checks GitHub every 30 seconds while checks are running, and every minute otherwise.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/jordan-cod/devnotch/releases/download/v0.6.0/DevNotch-0.6.0.zip" length="1384496" type="application/octet-stream" sparkle:edSignature="7uxQqSgfjkVEyq7ok5dqI9AqjYakPx0oGm1h5tnbWnjC/Wie1/yB3MZTGEQJG7HYPG+ROE6wPMVWTo+acIUXCw=="/>
+        </item>
+        <item>
+            <title>0.6.0-beta.2</title>
+            <pubDate>Tue, 20 Oct 2026 23:34:18 +0000</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>106</sparkle:version>
+            <sparkle:shortVersionString>0.6.0-beta.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<div class="markdown-heading"><h3 class="heading-element">Added</h3></div>
+<ul>
+<li>While checks run on your pull requests, the closed notch widens to show how many are done, with a +1 when more than one is running. It turns green or red when they finish, right before the alert. Turn it off in Settings → Appearance.</li>
+</ul>
+<div class="markdown-heading"><h3 class="heading-element">Changed</h3></div>
+<ul>
+<li>The glass style moved from General to a new Appearance page in Settings.</li>
+<li>DevNotch checks GitHub every 30 seconds while checks are running, and every minute otherwise.</li>
+</ul>
+<div class="markdown-heading"><h3 class="heading-element">Fixed</h3></div>
+<ul>
+<li>Dragging a pull request into another app works. The link goes out as both a URL and plain text, and the panel stays open until you drop it.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/jordan-cod/devnotch/releases/download/v0.6.0-beta.2/DevNotch-0.6.0-beta.2.zip" length="1384497" type="application/octet-stream" sparkle:edSignature="zYVsC1JtyBgIxXn/eE1yEFJUik8v/1uc+Uwr56369cAKmmHf8u/LMQq+i/27nqXU7z1wITdme28j1gP0kfy5Bw=="/>
+        </item>
+        <item>
+            <title>0.5.0</title>
+            <pubDate>Tue, 20 Oct 2026 22:43:49 +0000</pubDate>
+            <sparkle:version>84</sparkle:version>
+            <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<div class="markdown-heading"><h3 class="heading-element">Added</h3></div>
+<ul>
+<li>Each pull request shows how many lines it adds and removes. Hover over it to see how many files changed.</li>
+<li>Get beta versions: turn it on in Settings → Updates to try new features before everyone else.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/jordan-cod/devnotch/releases/download/v0.5.0/DevNotch-0.5.0.zip" length="1346868" type="application/octet-stream" sparkle:edSignature="hcqjqic1uN/q24xLkIVxuaAlrPEX+OUf9FlBwxqT2Ixacrb84uvqkytKdisdwrVXTawhm5vtHnYe7RfUYf+QCQ=="/>
+        </item>
+        <item>
+            <title>0.4.0</title>
+            <pubDate>Tue, 20 Oct 2026 21:42:03 +0000</pubDate>
+            <sparkle:version>78</sparkle:version>
+            <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<div class="markdown-heading"><h3 class="heading-element">Added</h3></div>
+<ul>
+<li>A glass look for the panel and alerts on macOS 26 and later, with or without a dark top behind the notch. Pick it in Settings → General. It follows your Liquid Glass setting and stays solid when Reduce transparency is on.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/jordan-cod/devnotch/releases/download/v0.4.0/DevNotch-0.4.0.zip" length="1339578" type="application/octet-stream" sparkle:edSignature="EoOlQouddQ+hXUWoiN1HLSxHqxYz/BB54sq7z86EJ20hjT0jZ8X15JiXxb7QucTuydzpHX1Ovs0uEBg7uATEBQ=="/>
+        </item>
+        <item>
+            <title>0.3.0</title>
+            <pubDate>Tue, 20 Oct 2026 00:38:45 +0000</pubDate>
+            <sparkle:version>32</sparkle:version>
+            <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<ul>
+<li>Merge pull request #1 from jordan-cod/release/0.3.0</li>
+<li>Let the repo reference give way before the event in stacked alerts</li>
+<li>Manage accounts only in Settings</li>
+<li>Put a face on alerts, and alert when your PR is merged or closed</li>
+<li>Turn Settings into a sidebar window with six pages</li>
+<li>Spin the refresh icon on its own center, starting upright</li>
+<li>Use an open envelope for mark as read</li>
+<li>Open hover hints beside their view, above the title</li>
+<li>Explain icons with an in-panel hover hint</li>
+<li>One Linear-style status icon per row, everything else gray</li>
+<li>Plain status tags, a quieter age, and logins without the company suffix</li>
+<li>Show the filter as a field instead of a header icon</li>
+<li>List stacked alerts line by line, most important first</li>
+<li>Quiet the panel down</li>
+<li>Raise text contrast and put a glyph in the CI dot</li>
+<li>Match the row age to the list order, and make #N search exact</li>
+<li>Don't mark your own new PRs unread, and confirm account removal</li>
+<li>Alert on every new reviewer and say who commented</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/jordan-cod/devnotch/releases/download/v0.3.0/DevNotch-0.3.0.zip" length="3199123" type="application/octet-stream" sparkle:edSignature="5ykrvY0+pFx4aITlGaAkxWmjDuy2WX+jH1cEY5dBJWcv5LGf6KB2t/XXe7dzzju5RRw2OidwtM0dPKwq2YFzCw=="/>
+        </item>
+        <item>
+            <title>0.2.1</title>
+            <pubDate>Mon, 19 Oct 2026 22:44:37 +0000</pubDate>
+            <sparkle:version>14</sparkle:version>
+            <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<ul>
+<li>Ship a signed, notarized disk image for downloads</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/jordan-cod/devnotch/releases/download/v0.2.1/DevNotch-0.2.1.zip" length="3077453" type="application/octet-stream" sparkle:edSignature="zr5Zt/PYt8WKR4Kq+96mDXmD+K35NYsXDbXSi7hWnF69isY30JXMHkTQxQmTvZWv2Y3jNBRS2iN9ZNkT5bvJCA=="/>
+        </item>
+        <item>
+            <title>0.2.0</title>
+            <pubDate>Mon, 19 Oct 2026 22:36:13 +0000</pubDate>
+            <sparkle:version>13</sparkle:version>
+            <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<ul>
+<li>Give notarization two hours, enough for a new account's first review</li>
+<li>Number builds by commit count so they always grow</li>
+<li>Move to actions/checkout v7, off the deprecated Node 20</li>
+<li>Ship updates with Sparkle and release from CI</li>
+<li>Hold an alert while the pointer is over it</li>
+<li>Play a sound on new alerts</li>
+<li>Only take clicks over the visible part of the notch</li>
+<li>Keep the notch on the built-in screen</li>
+<li>Add an app icon</li>
+<li>Remove build and demo scripts</li>
+<li>README: cover external displays and drop the Gatekeeper note</li>
+<li>Show the notch on external displays</li>
+<li>Initial commit</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/jordan-cod/devnotch/releases/download/v0.2.0/DevNotch-0.2.0.zip" length="3077431" type="application/octet-stream" sparkle:edSignature="xHnV1X7CtnNdHgIoRNTxaGxObjYEgfHNWHhkAMG5Fp/N7i4UmuOQOAjXUYpzBWIi4R3n5z+hh25++ELK125CBQ=="/>
+        </item>
+    </channel>
+</rss>
