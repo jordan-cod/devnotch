@@ -3,6 +3,26 @@
     <channel>
         <title>DevNotch</title>
         <item>
+            <title>0.7.0-beta.3</title>
+            <pubDate>Wed, 21 Oct 2026 11:27:16 +0000</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>129</sparkle:version>
+            <sparkle:shortVersionString>0.7.0-beta.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<div class="markdown-heading"><h3 class="heading-element">Added</h3></div>
+<ul>
+<li>Ready-made searches to start a tab from, like Ready to merge, Failing checks or Mentions me, in Settings → Tabs → Add tab and in the tab editor.</li>
+</ul>
+<div class="markdown-heading"><h3 class="heading-element">Changed</h3></div>
+<ul>
+<li>Settings → Appearance shows a preview of each panel style, so you can see what you pick.</li>
+<li>While checks run, the notch shows the PR number by default. In Settings → Appearance you can switch to the checks done, or both.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/jordan-cod/devnotch/releases/download/v0.7.0-beta.3/DevNotch-0.7.0-beta.3.zip" length="1464072" type="application/octet-stream" sparkle:edSignature="bYqbU2dfPkFUJRDdQrD8Ru4/VNFikouzaLspNFeu6mDqraVrrOFJVH6G/jCtWRlcbLepMctwNel3TF2837ghBg=="/>
+        </item>
+        <item>
             <title>0.7.0-beta.2</title>
             <pubDate>Wed, 21 Oct 2026 10:29:23 +0000</pubDate>
             <sparkle:channel>beta</sparkle:channel>
@@ -86,30 +106,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://github.com/jordan-cod/devnotch/releases/download/v0.6.0/DevNotch-0.6.0.zip" length="1384496" type="application/octet-stream" sparkle:edSignature="7uxQqSgfjkVEyq7ok5dqI9AqjYakPx0oGm1h5tnbWnjC/Wie1/yB3MZTGEQJG7HYPG+ROE6wPMVWTo+acIUXCw=="/>
-        </item>
-        <item>
-            <title>0.6.0-beta.2</title>
-            <pubDate>Tue, 20 Oct 2026 23:34:18 +0000</pubDate>
-            <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>106</sparkle:version>
-            <sparkle:shortVersionString>0.6.0-beta.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<div class="markdown-heading"><h3 class="heading-element">Added</h3></div>
-<ul>
-<li>While checks run on your pull requests, the closed notch widens to show how many are done, with a +1 when more than one is running. It turns green or red when they finish, right before the alert. Turn it off in Settings → Appearance.</li>
-</ul>
-<div class="markdown-heading"><h3 class="heading-element">Changed</h3></div>
-<ul>
-<li>The glass style moved from General to a new Appearance page in Settings.</li>
-<li>DevNotch checks GitHub every 30 seconds while checks are running, and every minute otherwise.</li>
-</ul>
-<div class="markdown-heading"><h3 class="heading-element">Fixed</h3></div>
-<ul>
-<li>Dragging a pull request into another app works. The link goes out as both a URL and plain text, and the panel stays open until you drop it.</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/jordan-cod/devnotch/releases/download/v0.6.0-beta.2/DevNotch-0.6.0-beta.2.zip" length="1384497" type="application/octet-stream" sparkle:edSignature="zYVsC1JtyBgIxXn/eE1yEFJUik8v/1uc+Uwr56369cAKmmHf8u/LMQq+i/27nqXU7z1wITdme28j1gP0kfy5Bw=="/>
         </item>
         <item>
             <title>0.3.0</title>
