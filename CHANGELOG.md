@@ -4,6 +4,11 @@ All notable changes to DevNotch are listed here, newest first. The format follow
 
 ## [Unreleased]
 
+## [0.6.2] - 2026-10-21
+
+### Fixed
+- The glass panel stays dark and readable when your Mac uses Light mode.
+
 ## [0.6.1] - 2026-10-21
 
 ### Fixed
@@ -97,7 +102,8 @@ All notable changes to DevNotch are listed here, newest first. The format follow
 - An alert stays open while the pointer is over it.
 - Clicks only land on the visible part of the notch. Everywhere else they go to the app behind it.
 
-[unreleased]: https://github.com/jordan-cod/devnotch/compare/v0.6.1...HEAD
+[unreleased]: https://github.com/jordan-cod/devnotch/compare/v0.6.2...HEAD
+[0.6.2]: https://github.com/jordan-cod/devnotch/compare/v0.6.1...v0.6.2
 [0.6.1]: https://github.com/jordan-cod/devnotch/compare/v0.6.0...v0.6.1
 [0.6.0]: https://github.com/jordan-cod/devnotch/compare/v0.5.0...v0.6.0
 [0.6.0-beta.2]: https://github.com/jordan-cod/devnotch/compare/v0.6.0-beta.1...v0.6.0-beta.2
