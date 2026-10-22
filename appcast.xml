@@ -3,6 +3,20 @@
     <channel>
         <title>DevNotch</title>
         <item>
+            <title>0.10.1</title>
+            <pubDate>Thu, 22 Oct 2026 17:42:10 +0000</pubDate>
+            <sparkle:version>201</sparkle:version>
+            <sparkle:shortVersionString>0.10.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<div class="markdown-heading"><h3 class="heading-element">Changed</h3></div>
+<ul>
+<li>Pullo now checks for updates at pullo.jrdan.dev, which counts how many Macs check each day so we know how many people use Pullo. It keeps only the day, the app version and the country. Turn off automatic update checks in Settings → Updates to be left out.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/jordan-cod/pullo/releases/download/v0.10.1/Pullo-0.10.1.zip" length="1761389" type="application/octet-stream" sparkle:edSignature="TzHf3zNQVwX4Q318Ft9Od0QW0F3k9DeITrzNshucI9sHN9Gnlx0vfkD1YZp+SIurgS4DNxx9ENl2Zcsi33qeAA=="/>
+        </item>
+        <item>
             <title>0.10.0</title>
             <pubDate>Thu, 22 Oct 2026 17:18:20 +0000</pubDate>
             <sparkle:version>196</sparkle:version>
@@ -38,22 +52,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://github.com/jordan-cod/pullo/releases/download/v0.9.0/Pullo-0.9.0.zip" length="1734579" type="application/octet-stream" sparkle:edSignature="lq6YO623hdWlAQrmuAvd2y6ZXWhPJ6HchwG1ne7779fG8g8dYMLqRxOClfoT6kJxu6fUzYzsVXVWgWH7jvrIAg=="/>
-        </item>
-        <item>
-            <title>0.8.1</title>
-            <pubDate>Wed, 21 Oct 2026 18:06:15 +0000</pubDate>
-            <sparkle:version>174</sparkle:version>
-            <sparkle:shortVersionString>0.8.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<div class="markdown-heading"><h3 class="heading-element">Fixed</h3></div>
-<ul>
-<li>When GitHub has a hiccup, like error 502 or a slow answer, Pullo tries again by itself before giving up. If your lists are too big for GitHub to answer in time, it switches to a lighter request that asks for fewer pull requests at once.</li>
-<li>A short hiccup no longer shows an error. Pullo keeps your list and only warns you if the problem lasts more than a minute and a half, telling you what's wrong (offline, GitHub not responding, request limit reached or sign-in) and when the list was last updated. The warning's button tries again, and only opens Accounts when the problem is signing in.</li>
-<li>On the Actions side, Pullo now tells you when it can't load runs, instead of quietly showing an old or empty list.</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/jordan-cod/pullo/releases/download/v0.8.1/Pullo-0.8.1.zip" length="1716484" type="application/octet-stream" sparkle:edSignature="8k8ZiX3M1ZpI4rTsilXs5XC0fluAYqOO646CWZO/fC/+F2ADB3Cx0FhD6nsYOxIDGa3QQ5di03msIA93v0iBDA=="/>
         </item>
         <item>
             <title>0.8.0-beta.5</title>
