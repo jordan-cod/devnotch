@@ -3,6 +3,20 @@
     <channel>
         <title>DevNotch</title>
         <item>
+            <title>0.10.2</title>
+            <pubDate>Fri, 23 Oct 2026 10:52:32 +0000</pubDate>
+            <sparkle:version>205</sparkle:version>
+            <sparkle:shortVersionString>0.10.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<div class="markdown-heading"><h3 class="heading-element">Removed</h3></div>
+<ul>
+<li>Pullo no longer counts how many Macs check for updates. It checks GitHub for updates again, like before 0.10.1, and nothing about your Mac is kept anywhere.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/jordan-cod/pullo/releases/download/v0.10.2/Pullo-0.10.2.zip" length="1761106" type="application/octet-stream" sparkle:edSignature="ICq6kRC7uodVmFQx9L6dP6n//WyM3GiorbqLNFX0sl+3Hnf93KWsLwC5+HqXzJCRfkkxRyzNNXC/X8K6/4VIAg=="/>
+        </item>
+        <item>
             <title>0.10.1</title>
             <pubDate>Thu, 22 Oct 2026 17:42:10 +0000</pubDate>
             <sparkle:version>201</sparkle:version>
@@ -37,21 +51,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://github.com/jordan-cod/pullo/releases/download/v0.10.0/Pullo-0.10.0.zip" length="1761114" type="application/octet-stream" sparkle:edSignature="rk9jCZjAusq8U+eKSEf3EPNgNpkng5ulWIODH3p5Ne2OYO06Wm3b8WACYl4Yea+T5nP0Azr0cPlRYxrhhj2ABQ=="/>
-        </item>
-        <item>
-            <title>0.9.0</title>
-            <pubDate>Wed, 21 Oct 2026 18:33:51 +0000</pubDate>
-            <sparkle:version>178</sparkle:version>
-            <sparkle:shortVersionString>0.9.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<div class="markdown-heading"><h3 class="heading-element">Changed</h3></div>
-<ul>
-<li>With more than one account, everything now shows up together: pull requests and runs from all your accounts are in the same tabs, each with the account's avatar, so there's no account to switch anymore. Tabs are shared by every account, and a tab can stick to one account if you want (Settings → Tabs → Account). Tabs you had per account are kept: the ones every account had become one, and the rest stay tied to their account.</li>
-<li>⌘1 to ⌘9 now jump to a tab, on both the Pull requests and Actions sides.</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/jordan-cod/pullo/releases/download/v0.9.0/Pullo-0.9.0.zip" length="1734579" type="application/octet-stream" sparkle:edSignature="lq6YO623hdWlAQrmuAvd2y6ZXWhPJ6HchwG1ne7779fG8g8dYMLqRxOClfoT6kJxu6fUzYzsVXVWgWH7jvrIAg=="/>
         </item>
         <item>
             <title>0.8.0-beta.5</title>
