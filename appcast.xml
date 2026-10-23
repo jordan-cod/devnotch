@@ -3,6 +3,20 @@
     <channel>
         <title>DevNotch</title>
         <item>
+            <title>0.11.1</title>
+            <pubDate>Fri, 23 Oct 2026 16:45:08 +0000</pubDate>
+            <sparkle:version>243</sparkle:version>
+            <sparkle:shortVersionString>0.11.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<div class="markdown-heading"><h3 class="heading-element">Changed</h3></div>
+<ul>
+<li>Each Settings page has its own colored icon in the sidebar, like System Settings.</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/jordan-cod/pullo/releases/download/v0.11.1/Pullo-0.11.1.zip" length="1908325" type="application/octet-stream" sparkle:edSignature="svkRpjCtycZFUYE0R5SU39izRyaF1xgvjNUkqo8QsVFxf0H4mePfuoXR5gI+2CcHOFlGc77S+7emFO6DB8ZVAQ=="/>
+        </item>
+        <item>
             <title>0.11.0</title>
             <pubDate>Fri, 23 Oct 2026 16:21:30 +0000</pubDate>
             <sparkle:version>238</sparkle:version>
@@ -68,20 +82,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://github.com/jordan-cod/pullo/releases/download/v0.10.2/Pullo-0.10.2.zip" length="1761106" type="application/octet-stream" sparkle:edSignature="ICq6kRC7uodVmFQx9L6dP6n//WyM3GiorbqLNFX0sl+3Hnf93KWsLwC5+HqXzJCRfkkxRyzNNXC/X8K6/4VIAg=="/>
-        </item>
-        <item>
-            <title>0.10.1</title>
-            <pubDate>Thu, 22 Oct 2026 17:42:10 +0000</pubDate>
-            <sparkle:version>201</sparkle:version>
-            <sparkle:shortVersionString>0.10.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<div class="markdown-heading"><h3 class="heading-element">Changed</h3></div>
-<ul>
-<li>Pullo now checks for updates at pullo.jrdan.dev, which counts how many Macs check each day so we know how many people use Pullo. It keeps only the day, the app version and the country. Turn off automatic update checks in Settings → Updates to be left out.</li>
-</ul>
-]]></description>
-            <enclosure url="https://github.com/jordan-cod/pullo/releases/download/v0.10.1/Pullo-0.10.1.zip" length="1761389" type="application/octet-stream" sparkle:edSignature="TzHf3zNQVwX4Q318Ft9Od0QW0F3k9DeITrzNshucI9sHN9Gnlx0vfkD1YZp+SIurgS4DNxx9ENl2Zcsi33qeAA=="/>
         </item>
         <item>
             <title>0.8.0-beta.5</title>
